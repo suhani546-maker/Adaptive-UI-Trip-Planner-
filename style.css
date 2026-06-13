@@ -1,8 +1,4 @@
 
-
-
-/* HEADER */
-
 *{
     margin:0;
     padding:0;
@@ -14,7 +10,7 @@ body{
     overflow-x:hidden;
 }
 
-/* HEADER */
+
 
 header{
     position:absolute;
@@ -51,7 +47,7 @@ header{
     }
 }
 
-/* HERO */
+
 
 .hero{
     position:relative;
@@ -59,7 +55,7 @@ header{
     overflow:hidden;
 }
 
-/* SLIDER */
+
 
 .slider{
     position:relative;
@@ -94,7 +90,7 @@ header{
     background:rgba(0,0,0,0.45);
 }
 
-/* HERO CONTENT */
+
 
 .hero-content{
     position:absolute;
@@ -133,7 +129,7 @@ header{
     transform:translateY(-5px);
 }
 
-/* ARROWS */
+
 
 .prev,
 .next{
@@ -166,7 +162,7 @@ header{
     background:rgba(255,255,255,0.35);
 }
 
-/* FEATURES SECTION */
+
 
 .features-section{
     position:relative;
@@ -178,8 +174,6 @@ header{
         #eaf4ff
     );
 }
-
-/* FLOATING BACKGROUND */
 
 .floating-bg{
     position:absolute;
@@ -241,7 +235,7 @@ header{
     }
 }
 
-/* HEADING */
+
 
 .feature-heading{
     position:relative;
@@ -263,7 +257,7 @@ header{
     -webkit-text-fill-color:transparent;
 }
 
-/* GRID */
+
 
 .features-grid{
     position:relative;
@@ -274,7 +268,7 @@ header{
     gap:35px;
 }
 
-/* CARDS */
+
 
 .feature-card{
     border-radius:30px;
@@ -290,7 +284,7 @@ header{
     box-shadow:0 20px 40px rgba(0,0,0,0.15);
 }
 
-/* CARD POSITIONS */
+
 
 .feature-card:nth-child(1){
     background:#eff6ff;
@@ -317,7 +311,7 @@ header{
     grid-column:4 / span 2;
 }
 
-/* ICONS */
+
 
 .feature-icon{
     font-size:4rem;
