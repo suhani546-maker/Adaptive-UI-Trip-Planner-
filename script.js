@@ -48,4 +48,4 @@ setInterval(() => {
 
     showSlide(currentSlide);
 
-}, 10000);
+}, 1000);
