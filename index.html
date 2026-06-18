@@ -21,7 +21,9 @@
     <div class="logo">
         <i class="fa-solid fa-earth-americas"></i>
         <span>TripGenius</span>
+         
     </div>
+    <button id="logoutBtn">Logout</button>
 </header>
 
 <section class="hero">
@@ -111,7 +113,10 @@
 
 </section>
 
-<script src="script.js"></script>
-
+<script type="module">
+  import { protectPage } from "./auth.js";
+  protectPage();
+</script>
+<script type="module" src="logout.js"></script>
 </body>
 </html>

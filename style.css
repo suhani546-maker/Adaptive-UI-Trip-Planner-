@@ -16,7 +16,12 @@ header{
     position:absolute;
     top:20px;
     left:40px;
+    right:40px;
     z-index:100;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
 .logo{
@@ -123,6 +128,21 @@ header{
     font-weight:600;
     cursor:pointer;
     transition:0.3s;
+}
+#logoutBtn{
+    padding:12px 25px;
+    border:none;
+    border-radius:50px;
+    background:white;
+    color:#111;
+    font-size:1rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#logoutBtn:hover{
+    transform:translateY(-3px);
 }
 
 .btn:hover{
