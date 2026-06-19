@@ -438,3 +438,154 @@ header{
         font-size:1.5rem;
     }
 }
+/* ===== Planner Page ===== */
+
+.planner-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(
+        135deg,
+        #2563eb,
+        #06b6d4,
+        #f59e0b
+    );
+
+    padding:40px;
+}
+
+.planner-card{
+    width:100%;
+    max-width:700px;
+
+    background:white;
+    padding:40px;
+
+    border-radius:25px;
+
+    box-shadow:
+    0 20px 50px rgba(0,0,0,.2);
+
+    text-align:center;
+}
+
+.planner-card h1{
+    font-size:3rem;
+    margin-bottom:10px;
+    color:#1e293b;
+}
+
+.planner-card p{
+    color:#64748b;
+    margin-bottom:30px;
+}
+
+#tripForm{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+#tripForm input{
+    padding:16px;
+    border:2px solid #e2e8f0;
+    border-radius:12px;
+
+    font-size:1rem;
+    outline:none;
+
+    transition:.3s;
+}
+
+#tripForm input:focus{
+    border-color:#2563eb;
+}
+
+.generate-btn{
+    padding:16px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.generate-btn:hover{
+    transform:translateY(-3px);
+}
+
+#logoutBtn{
+    float:right;
+
+    border:none;
+
+    background:#ef4444;
+
+    color:white;
+
+    padding:10px 18px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    margin-bottom:20px;
+}
+
+#result{
+    margin-top:30px;
+
+    text-align:left;
+
+    background:#f8fafc;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    white-space:pre-wrap;
+
+    line-height:1.8;
+
+    max-height:400px;
+
+    overflow:auto;
+}
+.loader{
+    width:50px;
+    height:50px;
+
+    border:5px solid #ddd;
+    border-top:5px solid #2563eb;
+
+    border-radius:50%;
+
+    margin:20px auto;
+
+    animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+#userEmail{
+    color:black;
+    font-size:1.1rem;
+    margin-bottom:20px;
+    font-weight:600;
+}

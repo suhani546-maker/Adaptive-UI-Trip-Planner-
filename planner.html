@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Planner</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="planner-container">
+
+    <div class="planner-card">
+
+        <h1>🌍 AI Trip Planner</h1>
+        <p id="userEmail"></p>
+        <p>Create your dream trip in seconds</p>
+
+        <button id="logoutBtn">Logout</button>
+
+        <form id="tripForm">
+
+            <input
+                type="text"
+                id="destination"
+                placeholder="Destination"
+                required>
+
+            <input
+                type="number"
+                id="budget"
+                placeholder="Budget (₹)"
+                required>
+
+            <input
+                type="number"
+                id="days"
+                placeholder="Number of Days"
+                required>
+
+            <input
+                type="text"
+                id="interests"
+                placeholder="Adventure, Beaches, Food..."
+                required>
+
+            <button type="submit" class="generate-btn">
+                Generate Trip
+            </button>
+
+        </form>
+
+        <div id="result"></div>
+
+    </div>
+
+</div>
+
+<script src="trip.js"></script>
+<script type="module" src="logout.js"></script>
+<script type="module" src="planner.js"></script>
+
+</body>
+</html>

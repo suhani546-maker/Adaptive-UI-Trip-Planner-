@@ -26,7 +26,7 @@ form.addEventListener("submit", async (e) => {
     alert("Login Successful!");
 
     window.location.href =
-      "index.html";
+      "planner.html";
 
   } catch (error) {
     alert(error.message);
